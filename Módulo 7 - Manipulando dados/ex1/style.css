@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: chocolate;
+}
+
+input {
+    width: 18rem;
+    padding: 1rem;
+    text-align: center;
+    border: solid 1px chocolate;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #8B4513; /* Slightly darker chocolate for focus */
+    out
